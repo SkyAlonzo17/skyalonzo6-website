@@ -1,0 +1,28 @@
+.mercusaur {
+    width: 150px;
+    transform: translateY(-50px);
+}
+
+button {
+    padding: 8px 12px;
+    position: absolute;
+    bottom: pointer;
+}
+
+@keyframes fadeIn {
+   0% {
+      transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes fadeOut {
+    0%{
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
