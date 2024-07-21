@@ -1,0 +1,23 @@
+.sky {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+}
+
+.cloud {
+    width: 80px;
+    top: 20px;
+}
+
+.sun, .moon {
+    width: 70%;
+    position: absolute;
+    transform: translateY(60px);
+}
+
+.sun img .moon img {
+    width: 100px;
+}
